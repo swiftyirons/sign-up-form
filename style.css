@@ -39,3 +39,15 @@
   text-align: center;
   margin-bottom: 10px;
 }
+.right {
+  width: 900px;
+}
+.description {
+  background-color: #F2F2F2;
+  padding: 140px 170px 40px 40px;
+}
+.description p {
+  font-size: 1.5rem;
+  margin: 20px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
