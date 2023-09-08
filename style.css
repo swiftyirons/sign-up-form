@@ -1,0 +1,41 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+@font-face {
+  font-family: norseBold;
+  src: url(./assets/Norsebold.otf);
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+.left {
+ background-image: url("./assets/unsplash.jpg");
+ background-position: center;
+ background-size: cover;
+ width: 650px;
+ color: #fff;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+.logo {
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  margin: 200px 0;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: center;
+  font-family: norseBold;
+  font-size: 6rem;
+}
+.logo img {
+  width: 100px;
+}
+.credit {
+  text-align: center;
+  margin-bottom: 10px;
+}
