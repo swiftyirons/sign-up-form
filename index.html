@@ -22,20 +22,39 @@
       </div>     
       <form action=""></form>
         <div class="inputs">
-          <div>Let's do this!</div>
-          <lable for="first_name">FIRST NAME</lable>
-          <input id="first_name" name="first_name" type="text">
-          <lable for="last_name">Last Name</lable>
-          <input id="last_name" name="last_name" type="text">
-          <lable for="email">EMAIL</lable>
-          <input id="email" name="email" type="email">
-          <lable for="phone_number">PHONE NUMBER</lable>
-          <input id="phone_number" name="phone_number" type="text">
-          <lable for="password">PASSWORD</lable>
-          <input id="password" name="password" type="password">
-          <lable for="confirm_password">CONFIRM PASSWORD</lable>
-          <input id="confirm_password" name="confirm_password" type="password">
+          <h2>Let's do this!</h2>
+          <div class="form-container">
+            <div class="column">
+              <div class="form-row">
+                <lable for="first_name" class="form-label">FIRST NAME</lable>
+                <input id="first_name" name="first_name" type="text">
+              </div>
+              <div class="form-row">
+                <lable for="email" class="form-label">EMAIL</lable>
+                <input id="email" name="email" type="email">
+              </div>
+              <div class="form-row">
+                <lable for="password" class="form-label">PASSWORD</lable>
+                <input id="password" name="password" type="password">
+              </div>
+            </div>
+            <div class="column">
+              <div class="form-row">
+                <lable for="last_name" class="form-label">LAST NAME</lable>
+                <input id="last_name" name="last_name" type="text">                
+              </div>
+              <div class="form-row">
+                <lable for="phone_number" class="form-label">PHONE NUMBER</lable>
+                <input id="phone_number" name="phone_number" type="text">                
+              </div>
+              <div class="form-row">
+                <lable for="confirm_password" class="form-label">CONFIRM PASSWORD</lable>
+                <input id="confirm_password" name="confirm_password" type="password">
+              </div>
+            </div>
+          </div>
         </div>
+        
         <div class="button"><button type="submit">Create Account</button></div>
       </form>
       <div class="login">Already have an account? Log in</div>
